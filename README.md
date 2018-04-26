@@ -16,7 +16,7 @@ Python version 3.6.3, Anaconda 4.5.1
 
 This provides a list of all files contained in the repo, along with a brief description of each one:
 
-data
+**data**
 
 1_xwlb_content_title_daily.csv: Contains the data, with colomns content, date, and title. The content column includes individual paragraphs; the date column indicates the respective date of broadcast; and the title column indicates the title of each segment. Each segment may have multiple paragraphs, and each date may have multiple segments.
 
@@ -25,7 +25,7 @@ data
 3_xwlb_daily_province_mentions.csv: Contains the count of segment mentions for the provinces.
 
 
-code
+**code**
 
 01_Webscraping.ipynb: Collects data from http://mrxwlb.com/ and exports the data to the file 1_xwlb_content_title_daily.csv
 
@@ -34,7 +34,7 @@ code
 03_text_analysis.ipynb: Conducts text analysis of the data, producing the topic modeling results for the weekday set of data, the weekend set of data, and the entire dataset.
 
 
-results
+**results**
 
 result1_xwlb_daily_XJP_mentions: Graphs the number of Xi Jinping mentions.
 
@@ -53,7 +53,7 @@ result7_xwlb_daily_all_topics.csv: Topic keywords from all the xwlb articles, in
 result8_xwlb_daily_all_topics_eng.csv: Topic keywords from all the xwlb articles, in English. Each topic has a manually determined label, based on the keywords.
 
 
-More Information
+**More Information**
 
 Since many of the output files are in Chinese (or partly in Chinese), you may encounter encoding issues when opening them. One way to open the .csv file in Microsoft Excel is to follow the procedures below:
 - Open Excel
